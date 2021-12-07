@@ -8,6 +8,9 @@
     font-size: 1.2em;
     padding-left: 3em;
     }
+  
+  .inner {
+    display: none;
 
     .visionText {
         font-size: 1.3em;
