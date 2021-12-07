@@ -30,10 +30,11 @@
 
     dl dt , dl dd {
          width: 100%;
+         text-align: center;
      }
 
      dl dt {
          text-align: center;
-         margin: 0 30px;
+         margin:30px 0;
      }
 }
