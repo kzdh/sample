@@ -1,0 +1,286 @@
+@charset "utf-8";
+
+body {
+    font-size: 100%;
+    color: #666;
+    font-family: "meiryo","Hiragino", "Gothic ProN", "Hiragino Sans", "Meiryo, Osaka", "sans-serif";
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+li {
+    list-style: none;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.inner {
+    width: 70%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px ;
+}
+
+a.gototop {
+    background-color: #90BE59;
+    bottom: 2%;
+    color: #fff;
+    display: none;
+    font-size: 2rem;
+    height: 3rem;
+    line-height: 3.8rem;
+    position: fixed;
+    right: 2%;
+    text-align: center;
+    text-decoration: none;
+    width: 3rem;
+  }
+  
+
+
+/**********
+ header 
+ **********/
+
+header {
+    width: 100%;
+    height: 150px;
+}
+
+header h1 {
+    width: 150px;
+    margin: 0 auto;
+}
+
+header a {
+  display: block;
+}
+
+.mainVisual {
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/lp-caudex.png);
+    background-size: contain;
+    background-position: center center;
+    padding: 280px 0 100px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.btn {
+    padding: 8px 24px;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center; 
+    letter-spacing: 0.1rem;
+}
+
+.btn a{
+    color: white;
+}
+
+.message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+
+/* nav */
+
+nav ul {
+    display: flex;
+    justify-content: left;
+    margin: 40px 0 80px 0;
+    font-size: 1.2em;
+}
+
+nav ul li {
+    width: 25%;
+    font-size: 0.8em;
+    opacity: 0.7;
+}
+
+nav ul li img{
+    width: 2em;
+}
+
+nav ul li a{
+    display: block;
+}
+
+nav ul li:hover {
+    opacity: 1;
+}
+
+/* main */
+
+.intro {
+    text-align: center;
+}
+
+.visionText {
+    color: #666;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-align: center;
+   }
+    
+.visionText:before,
+.visionText:after {
+    font-size: 80px;
+    line-height: 40px;
+    vertical-align: text-top;
+}
+    
+.visionText:before {
+    content: "“";
+    margin-right: 10px;
+}
+    
+.visionText:after {
+    content: "”";
+    margin-left: 10px;
+}
+
+.intro p.text {
+    color: #666;
+    font-size: 1em;
+}
+   
+
+main h2 {
+    margin: 30px 0;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.main-flex{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.center {
+    flex-flow: row-reverse;
+}
+
+.main-flex .main-flexRight {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 30px;
+}
+
+.main-flex .main-flexLeft {
+    box-sizing: border-box;
+    width: 50%;
+    
+    }
+
+.main-flex .main-flexLeft img {
+    width: 450px;
+    height: 450px;
+}
+
+.main-flexRight h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #666;
+}
+
+
+
+.tag {
+    background: aqua;
+    color: #666;
+    margin-left: 3px;
+    vertical-align: middle;
+    font-size: 0.5em;
+    display: inline-block;
+    padding: 3px 6px;
+}
+
+.readMore {
+    text-align: center;
+}
+
+.btn01 {
+    padding: 9px 27px;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center; 
+    letter-spacing: 0.1rem;
+    z-index: 99999; 
+    top:0;
+}
+
+.btn01 a{
+    color: white;
+}
+
+.message01 {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message01:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+#guide {
+    margin: 50px 0 80px;
+}
+
+dl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+dl dt {
+    width: 20%;  
+    font-size: 1.6em;  
+}
+
+dl dd {
+    width: 80%;
+    display: inline-block;
+    font-size: 0.8em;
+}
+
+dd h4 {
+    padding-bottom: 3px;
+    border-bottom: 1px solid #666;
+    margin-bottom: 25px;
+}
+
+dd p {
+    margin-bottom: 50px;
+}
+
+footer {
+    text-align: center;
+}
